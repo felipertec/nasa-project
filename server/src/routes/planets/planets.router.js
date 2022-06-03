@@ -1,6 +1,5 @@
 const express = require('express');
 
-//import controller planets here
 const {
     httpGetAllPlanets,
 } = planetsController = require('./planets.controller');

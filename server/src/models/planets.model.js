@@ -37,6 +37,7 @@ function getAllPlanets(){
   return habitablePlanets;
 }
 
+
 module.exports = {
     loadPlanetsData,
     getAllPlanets,
