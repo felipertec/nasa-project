@@ -11,13 +11,14 @@ function httpAddNewLaunch(req,res){
     const launch = req.body;
 
     if(!launch.mission || !launch.rocket || !launch.launchDate
-        || !launch.destination){
+        || !launch.target){
             res.status(400).json({
                 error: 'Missing required launch property'
             });
     }
 
     launch.launchDate = new Date(launch.launchDate);
+    
     if(isNaN(launch.launchDate)){
         return res.status(400).json({
             error: 'invalid launch date'
