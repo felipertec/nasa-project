@@ -7,7 +7,7 @@ Use the commands down:
 
 #### first:
 ```
-npm install
+npm install-main
 ```
 
 #### second:

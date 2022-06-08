@@ -1,12 +1,12 @@
 {
-  "name": "nasa-project-api",
+  "name": "nasa-project",
   "version": "1.0.0",
-  "description": "One project using nodejs, react and MongoDB",
+  "description": "One project using nodejs and react.",
   "main": "index.js",
   "scripts": {
     "install-server": "npm install --prefix server",
     "install-client": "npm install --prefix client",
-    "install": "npm install",
+    "install-main": "npm install",
     "upgrade": "npm-run-all --parallel install-server install-client",
     "server": "npm run watch --prefix server",
     "client": "npm start --prefix client",
