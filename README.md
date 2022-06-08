@@ -7,12 +7,12 @@ Use the commands down:
 
 #### first:
 ```
-npm install-main
+npm run install-main
 ```
 
 #### second:
 ```
-npm upgrade
+npm run upgrade
 ```
 #### production mod:
 
